@@ -1,20 +1,29 @@
 {
   "name": "leedz-design-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Leedz Design System",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leedz-Digital/leedz-design-system.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "prepare": "npm run build"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prepare": "npm run build",
+    "release": "npm run build && npm publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["design system", "react", "storybook"],
+  "author": "Seu Nome",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leedz-Digital/leedz-design-system/issues"
+  },
+  "homepage": "https://github.com/Leedz-Digital/leedz-design-system#readme",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
