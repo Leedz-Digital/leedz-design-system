@@ -1,6 +1,6 @@
 {
   "name": "leedz-design-system",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Leedz Design System",
   "main": "src/index.js",
   "types": "index.d.ts",
