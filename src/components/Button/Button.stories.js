@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBeer, FaArrowRight } from 'react-icons/fa';
+import { FaBeer, FaArrowRight, FaCoffee, FaCheckCircle } from 'react-icons/fa';
 import Button from './Button';
 import { ThemeProvider } from 'styled-components';
 import theme from '../../styles/theme';
@@ -224,7 +224,25 @@ RoundedSecondary.args = {
 export const CircularButton = Template.bind({});
 CircularButton.args = {
   variant: 'primary',
-  children: <FaBeer />,
+  children: <FaBeer style={{ margin: 0 }} />,
   rounded: true,
   size: 'large',
+};
+
+// Examples with more context and different icons
+
+export const SuccessButton = Template.bind({});
+SuccessButton.args = {
+  variant: 'primary',
+  children: [<FaCheckCircle key="icon" />, ' Success'],
+  iconPosition: 'left',
+  rounded: true,
+};
+
+export const CoffeeButton = Template.bind({});
+CoffeeButton.args = {
+  variant: 'secondary',
+  children: ['Coffee ', <FaCoffee key="icon" />],
+  iconPosition: 'right',
+  rounded: true,
 };

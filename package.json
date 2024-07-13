@@ -1,9 +1,9 @@
 {
   "name": "leedz-design-system",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Leedz Design System",
   "main": "src/index.js",
-  "types": "index.d.ts", 
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Leedz-Digital/leedz-design-system.git"
@@ -16,7 +16,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "npm run build",
-    "release": "npm run build && npm publish"
+    "release": "npm run build && npm publish",
+    "generate-stories": "node generate-stories.js"
   },
   "keywords": [
     "design system",
@@ -30,14 +31,18 @@
   },
   "homepage": "https://github.com/Leedz-Digital/leedz-design-system#readme",
   "dependencies": {
+    "@babel/generator": "^7.24.8",
+    "@babel/parser": "^7.24.8",
+    "@babel/traverse": "^7.24.8",
+    "@babel/types": "^7.24.8",
     "@storybook/addon-actions": "^8.2.2",
-    "@storybook/addon-docs": "^8.2.2",
     "@storybook/addon-essentials": "^8.2.2",
     "@storybook/addon-interactions": "^8.2.2",
     "@storybook/addon-links": "^8.2.2",
     "@storybook/addon-onboarding": "^8.2.2",
     "@storybook/react": "^8.2.2",
     "@storybook/react-webpack5": "^8.2.2",
+    "prettier": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
@@ -50,6 +55,7 @@
     "@babel/preset-env": "^7.24.8",
     "@babel/preset-react": "^7.24.7",
     "@chromatic-com/storybook": "1",
+    "@storybook/addon-docs": "^8.2.2",
     "@storybook/addon-webpack5-compiler-babel": "3.0.3",
     "@storybook/blocks": "^8.2.2",
     "@storybook/preset-create-react-app": "^8.2.2",

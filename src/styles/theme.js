@@ -1,3 +1,4 @@
+// src/styles/theme.js
 const theme = {
   colors: {
     primary: '#3b82f6', // Blue 500
