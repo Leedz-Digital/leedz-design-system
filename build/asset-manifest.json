@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.73d230e8.js",
-    "index.html": "/index.html",
-    "main.73d230e8.js.map": "/static/js/main.73d230e8.js.map"
+    "main.js": "/Leedz-Digital/leedz-design-system/static/js/main.2e24b171.js",
+    "index.html": "/Leedz-Digital/leedz-design-system/index.html",
+    "main.2e24b171.js.map": "/Leedz-Digital/leedz-design-system/static/js/main.2e24b171.js.map"
   },
   "entrypoints": [
-    "static/js/main.73d230e8.js"
+    "static/js/main.2e24b171.js"
   ]
 }
