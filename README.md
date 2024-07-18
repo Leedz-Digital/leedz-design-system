@@ -1,5 +1,6 @@
 
-# ![Leedz Logo](https://agencialeedz.com/assets/logo-black-e04d8cb3.png) Leedz Design System
+# ![Leedz Logo](https://agencialeedz.com/assets/lg1.png) 
+# Leedz Design System
 
 [![NPM version](https://img.shields.io/npm/v/leedz-design-system.svg)](https://www.npmjs.com/package/leedz-design-system)
 [![Build Status](https://img.shields.io/github/workflow/status/Leedz-Digital/leedz-design-system/CI)](https://github.com/Leedz-Digital/leedz-design-system/actions)
