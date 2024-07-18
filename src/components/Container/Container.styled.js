@@ -2,6 +2,7 @@
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
+  width: 100%;
   max-width: ${({ maxWidth }) => maxWidth || '1200px'};
   padding: ${({ padding }) => padding || '0 16px'};
   margin: ${({ margin }) => margin || '0 auto'};
